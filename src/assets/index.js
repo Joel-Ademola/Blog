@@ -1,5 +1,4 @@
-import logoName from "./logo2.png";
-import logoName1 from "./logo3.png";
+import logo from "./logo.png";
 import spotifyanchor from "./spotifyanchor.webp";
 import DM from "./img1.jpg";
 import DM2 from "./img2.jpg";
@@ -22,6 +21,5 @@ export {
   DM5,
   DM6,
   DM7,
-  logoName1,
-  logoName,
+  logo
 };

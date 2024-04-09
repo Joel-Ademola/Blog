@@ -1,6 +1,6 @@
 import { React, useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
-import { logoName, logoName1 } from "../assets";
+import { logo } from "../assets";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 
@@ -49,7 +49,7 @@ export default function Navbar() {
               {/* <span className="sr-only">Your Company</span> */}
               <img
                 className="h-12 w-auto"
-                src={logoName}
+                src={logo}
                 // src={scrolling ? logoName1 : logoName}
                 alt=""
               />
@@ -95,7 +95,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between">
               <Link to={"/"} className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h-16 w-auto" src={logoName} alt="" />
+                <img className="h-16 w-auto" src={logo} alt="" />
               </Link>
               <button
                 type="button"
